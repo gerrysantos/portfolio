@@ -20,7 +20,7 @@ export const projects: Project[] = [
     title: "Admin Dashboard",
     description: "CRUD admin panel with authentication and role management.",
     stack: ["React", "Node.js", "Express", "MySQL"],
-    demo: "#",
+    demo: "https://reactapp-admin-dashboard.netlify.app/",
     github: "#",
   },
 ];
