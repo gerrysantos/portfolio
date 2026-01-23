@@ -21,6 +21,12 @@ const Skills = ({ title, items }: Skill) => {
             {i.icon && (
               <i.icon className="w-5 h-5 text-slate-400 group-hover:text-blue-400 transition-colors duration-200" />
             )}
+
+            {i.devicon && (
+              <i
+                className={`${i.devicon} text-[20px] text-slate-400 group-hover:text-blue-400 transition-colors duration-200`}
+              />
+            )}
             <span className="group-hover:text-blue-400">{i.name}</span>
           </motion.li>
         ))}
