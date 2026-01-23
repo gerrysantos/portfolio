@@ -25,7 +25,12 @@ const Projects = () => {
             <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
 
             {/* Project Description */}
-            <p className="text-slate-400 mb-4">{p.description}</p>
+            <p className="text-slate-400 mb-2">{p.description}</p>
+
+            {/* Optional Note / Metadata */}
+            {p.note && (
+              <p className="text-slate-500 text-sm italic mb-4">{p.note}</p>
+            )}
 
             {/* Tech Stack */}
             <div className="flex flex-wrap gap-2 mb-4">
