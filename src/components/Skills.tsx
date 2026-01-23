@@ -70,6 +70,7 @@ const Skills = () => {
               items={[
                 { name: "MongoDB", icon: SiMongodb },
                 { name: "MySQL", icon: SiMysql },
+                { name: "MSSQL", devicon: "devicon-microsoftsqlserver-plain" },
               ]}
             />
           </motion.div>
