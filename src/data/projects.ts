@@ -25,6 +25,12 @@ export const projects: Project[] = [
     github: "https://github.com/gerry-vismay/vismayintlcorp.com.git",
   },
   {
+    title: "JBA7 Realty",
+    description: "Real estate website with responsive layout and clean UI.",
+    stack: ["ReactJS", "HTML", "CSS", "JavaScript"],
+    demo: "https://jba7realty.com",
+  },
+  {
     title: "Admin Dashboard",
     description: "CRUD admin panel with authentication and role management.",
     stack: ["React", "Node.js", "Express", "MySQL"],
