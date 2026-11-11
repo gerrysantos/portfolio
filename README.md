@@ -43,6 +43,16 @@ bun run build      # dist/client (assets) + dist/portfolio/index.js (Worker)
 acknowledges, but does not deliver anywhere yet — wire it to an email API (key
 in Sites → Secrets) or save submissions to D1.
 
+## Deploy with Netlify
+
+Connect the GitHub repository and deploy the `main` branch. `netlify.toml`
+sets the build command to `npm run build` and publishes `dist/client`, where
+the Cloudflare Vite plugin generates the website files. The fallback redirect
+lets React Router handle direct visits to About and project pages.
+
+The Cloudflare Worker in `src/worker/index.ts` does not run on Netlify; the
+contact endpoint needs a Netlify backend before it can accept submissions.
+
 ## Deploy with Freebuff Sites
 
 `deploy.json` points at the build output. After `bun run build`, deploy with
