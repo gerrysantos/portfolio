@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-label="JBA7 Realty cover">
+  <defs>
+    <linearGradient id="sand" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#f1e9d9" />
+      <stop offset="1" stop-color="#d9cdb6" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#sand)" />
+  <g stroke="#1c1a16" stroke-opacity="0.12" stroke-width="1">
+    <path d="M0 940H1600M0 1020H1600M0 1100H1600" />
+  </g>
+  <g fill="none" stroke="#1c1a16" stroke-width="3" transform="translate(-64 0)">
+    <path d="M1010 800V470L1265 320 1520 470V800" />
+    <path d="M1085 800V550H1195V800M1310 550H1440V800" />
+    <path d="M1265 320V200" />
+    <path d="M860 800H1540" stroke-opacity="0.35" />
+  </g>
+  <circle cx="1366" cy="196" r="52" fill="#c96a3b" />
+  <text x="110" y="170" fill="#1c1a16" fill-opacity="0.55" font-family="Inter, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="7">REAL ESTATE · METRO MANILA</text>
+  <text x="100" y="700" fill="#1c1a16" font-family="Inter, Helvetica, Arial, sans-serif" font-size="280" font-weight="700" letter-spacing="-10">JBA7</text>
+  <text x="110" y="805" fill="#1c1a16" fill-opacity="0.72" font-family="Inter, Helvetica, Arial, sans-serif" font-size="58" font-weight="500" letter-spacing="26">REALTY</text>
+  <text x="110" y="1045" fill="#1c1a16" fill-opacity="0.5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="24" letter-spacing="3">LISTINGS · SEO MARKUP · HOSTING &amp; DNS</text>
+</svg>
